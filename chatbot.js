@@ -1,5 +1,5 @@
 const BOOKING_URL = 'https://www.booking.com/hotel/tr/turquaz-cave.html';
-const API_URL = '/.netlify/functions/chat';
+const API_URL = '/api/chat';
 
 const toggle   = document.getElementById('chat-toggle');
 const window_  = document.getElementById('chat-window');
