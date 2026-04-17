@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Turquaz Cave Hotel – Göreme, Kapadokya</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-t">T</span>urquaz<span class="logo-ch"> Cave Hotel</span>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menü">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">Hakkımızda</a></li>
+      <li><a href="#rooms">Odalar</a></li>
+      <li><a href="#amenities">İmkânlar</a></li>
+      <li><a href="#gallery">Galeri</a></li>
+      <li><a href="#location">Konum</a></li>
+      <li><a href="#contact" class="nav-btn">Rezervasyon</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <img
+      src="https://images.odamax.com/imgproxy/img/1024x768/odamax/image/upload/iwcltsohqefmt6mqurtb.jpg"
+      alt="Turquaz Cave Hotel Dış Görünüm"
+      class="hero-bg"
+    />
+    <div class="hero-content">
+      <p class="hero-eyebrow">Göreme · Kapadokya · Türkiye</p>
+      <h1>Doğanın içinde,<br /><em>tarihin kalbinde</em></h1>
+      <p class="hero-sub">
+        Peri bacalarına tırmanan kaya odalarımızda eşsiz bir konaklama deneyimi sizi bekliyor.
+      </p>
+      <a href="#rooms" class="btn btn-light">Odaları Keşfet</a>
+    </div>
+    <div class="hero-scroll">
+      <span>Aşağı Kaydır</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- RIBBON -->
+  <div class="ribbon">
+    <div class="ribbon-inner">
+      <div class="ribbon-item">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <span><strong>4.6 / 5</strong> TripAdvisor Puanı</span>
+      </div>
+      <div class="ribbon-item">
+        <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        <span><strong>9 Butik</strong> Mağara Oda</span>
+      </div>
+      <div class="ribbon-item">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span><strong>7/24</strong> Resepsiyon</span>
+      </div>
+      <div class="ribbon-item">
+        <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+        <span><strong>Açık Büfe</strong> Kahvaltı Dahil</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container split">
+      <div class="split-text fade-in">
+        <p class="section-tag">Hakkımızda</p>
+        <h2>Göreme Tarihi Milli Parkı'nın<br />kalbinde bir kaçış</h2>
+        <p>
+          Turquaz Cave Hotel, Göreme'nin efsanevi peri bacaları arasına konuşlanmış 9 odalı butik bir mülktür.
+          Kaya formasyonlarına oyulmuş odalarımız, binlerce yıllık doğal yalıtımı modern konforla birleştirir.
+          Terasımızdan Güvercinlik Vadisi manzarası ve her sabah gökyüzünü süsleyen sıcak hava balonlarının
+          büyülü dansını seyredebilirsiniz.
+        </p>
+        <p>
+          Aile işletmemiz, misafirlerimize yalnızca bir yatak değil; Kapadokya'nın ruhunu taşıyan
+          gerçek bir deneyim sunmayı hedefler.
+        </p>
+        <div class="about-stats">
+          <div><span>272</span><small>Değerlendirme</small></div>
+          <div><span>9</span><small>Butik Oda</small></div>
+          <div><span>100</span><small>Yürüme Skoru</small></div>
+        </div>
+      </div>
+      <div class="split-img fade-in">
+        <img
+          src="https://images.odamax.com/imgproxy/img/1024x768/odamax/image/upload/klu5u2uzmhpr4mv6hoiu.jpg"
+          alt="Turquaz Cave Hotel Teras Manzarası"
+        />
+        <div class="img-badge">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg>
+          <span>Kapadokya'nın En Otantik<br/>Cave Hotel Deneyimi</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROOMS -->
+  <section class="rooms" id="rooms">
+    <div class="container">
+      <p class="section-tag center">Odalarımız</p>
+      <h2 class="center">Konfor ile tarihin<br />buluştuğu mekânlar</h2>
+      <div class="rooms-grid">
+
+        <div class="room-card fade-in">
+          <div class="room-img">
+            <img src="https://images.odamax.com/imgproxy/img/800x600/odamax/image/upload/yzpbvl1uhpgxfq2hb9dd.jpg" alt="Standart Mağara Oda" />
+            <div class="room-tag">En Popüler</div>
+          </div>
+          <div class="room-body">
+            <h3>Standart Mağara Oda</h3>
+            <p>Kaya formasyonuna oyulmuş, doğal ısı yalıtımlı geleneksel oda. Konfor ve özgünlüğü bir arada sunar.</p>
+            <ul class="room-features">
+              <li>Özel banyo & saç kurutma makinesi</li>
+              <li>Çay/kahve seti</li>
+              <li>Ücretsiz Wi-Fi</li>
+              <li>İklimlendirme</li>
+            </ul>
+            <div class="room-footer">
+              <span class="room-price">$53'ten başlayan fiyatlarla</span>
+              <a href="#contact" class="btn btn-sm">Rezervasyon</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card fade-in">
+          <div class="room-img">
+            <img src="https://images.odamax.com/imgproxy/img/800x600/odamax/image/upload/gxp0wtprokzp9elxwjnv.jpg" alt="Konfor Çift Kişilik Oda" />
+          </div>
+          <div class="room-body">
+            <h3>Konfor Çift Kişilik Oda</h3>
+            <p>Geniş alanlı ve özenle tasarlanmış çift kişilik odamız, çiftlere özel bir kaçış sunuyor.</p>
+            <ul class="room-features">
+              <li>200 cm+ Konforlu yatak</li>
+              <li>Manzaralı oturma alanı</li>
+              <li>Çay/kahve seti</li>
+              <li>Ücretsiz Wi-Fi</li>
+            </ul>
+            <div class="room-footer">
+              <span class="room-price">$85'ten başlayan fiyatlarla</span>
+              <a href="#contact" class="btn btn-sm">Rezervasyon</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card fade-in">
+          <div class="room-img">
+            <img src="https://images.odamax.com/imgproxy/img/800x600/odamax/image/upload/cmglqjonys6qzzxb0pqw.jpg" alt="Standart Üç Kişilik Oda" />
+          </div>
+          <div class="room-body">
+            <h3>Standart Üç Kişilik Oda</h3>
+            <p>Aileler ve arkadaş grupları için ideal, geniş ve konforlu üç kişilik mağara odamız.</p>
+            <ul class="room-features">
+              <li>3 ayrı yatak</li>
+              <li>Geniş banyo</li>
+              <li>Dolap & kıyafet askısı</li>
+              <li>Ücretsiz Wi-Fi</li>
+            </ul>
+            <div class="room-footer">
+              <span class="room-price">$110'dan başlayan fiyatlarla</span>
+              <a href="#contact" class="btn btn-sm">Rezervasyon</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card fade-in">
+          <div class="room-img">
+            <img src="https://images.odamax.com/imgproxy/img/800x600/odamax/image/upload/u2otmn36tczhj4cef5yd.jpg" alt="İki Yatak Odalı Aile Süiti" />
+            <div class="room-tag room-tag-gold">Süit</div>
+          </div>
+          <div class="room-body">
+            <h3>İki Yatak Odalı Aile Süiti</h3>
+            <p>İki ayrı yatak odalı, geniş salon ve tam donanımlı aile süitimiz uzun konaklamalar için mükemmeldir.</p>
+            <ul class="room-features">
+              <li>2 ayrı yatak odası</li>
+              <li>Oturma odası</li>
+              <li>Çamaşır kurutma makinesi</li>
+              <li>Katlanır kanepe yatak</li>
+            </ul>
+            <div class="room-footer">
+              <span class="room-price">$150'den başlayan fiyatlarla</span>
+              <a href="#contact" class="btn btn-sm">Rezervasyon</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="room-card fade-in room-card-wide">
+          <div class="room-img">
+            <img src="https://images.odamax.com/imgproxy/img/1024x768/odamax/image/upload/wmf6g7uoslaxrtth2zck.jpg" alt="Dağ Manzaralı Aile Odası" />
+            <div class="room-tag room-tag-gold">Manzara</div>
+          </div>
+          <div class="room-body">
+            <h3>Dağ Manzaralı Aile Odası</h3>
+            <p>Peri bacalarına bakan eşsiz manzarasıyla bu oda, Kapadokya'nın büyüsünü doğrudan pencerenizden sunuyor. Sabah balonlarını yatak odanızdan izleyin.</p>
+            <ul class="room-features">
+              <li>Panoramik peri bacası manzarası</li>
+              <li>Aile konforlu düzenleme</li>
+              <li>Özel teras/balkon erişimi</li>
+              <li>Tam donanımlı banyo</li>
+            </ul>
+            <div class="room-footer">
+              <span class="room-price">$210'dan başlayan fiyatlarla</span>
+              <a href="#contact" class="btn btn-sm">Rezervasyon</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BALLOON BREAK -->
+  <section class="balloon-break">
+    <div class="balloon-overlay"></div>
+    <img
+      src="https://images.odamax.com/imgproxy/img/1024x768/odamax/image/upload/nvfpvmnwmkz2m0nwb5xh.jpg"
+      alt="Turquaz Cave Hotel Manzarası"
+      class="balloon-bg"
+    />
+    <div class="balloon-content">
+      <p class="section-tag">Unutulmaz Anlar</p>
+      <h2>Her sabah gökyüzü<br />bir şölen sunar</h2>
+      <p>Terasımızdan izlediğiniz sıcak hava balon turu rezervasyonlarınızı<br />tur masemiz aracılığıyla kolayca yapabilirsiniz.</p>
+      <a href="#contact" class="btn btn-light">Balon Turu Sorgula</a>
+    </div>
+  </section>
+
+  <!-- AMENITIES -->
+  <section class="amenities" id="amenities">
+    <div class="container">
+      <p class="section-tag center">İmkânlarımız</p>
+      <h2 class="center">Her detayda özen</h2>
+      <div class="amenities-grid">
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h4>Açık Büfe Kahvaltı</h4>
+          <p>Her sabah 08:30–10:30 arası vejetaryen ve helal seçenekler içeren zengin Türk kahvaltısı.</p>
+        </div>
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><path d="M5 12.55a11 11 0 0114.08 0"/><path d="M1.42 9a16 16 0 0121.16 0"/><path d="M8.53 16.11a6 6 0 016.95 0"/><circle cx="12" cy="20" r="1"/></svg>
+          </div>
+          <h4>Ücretsiz Wi-Fi</h4>
+          <p>Tüm odalarda ve ortak alanlarda yüksek hızlı internet bağlantısı.</p>
+        </div>
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+          </div>
+          <h4>7/24 Resepsiyon</h4>
+          <p>Gece gündüz her ihtiyacınızda yardımcı olmaya hazır deneyimli ekibimiz.</p>
+        </div>
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h4>Tur Masası</h4>
+          <p>Balon turları, ATV gezileri, vadi yürüyüşleri ve çevre gezi organizasyonları.</p>
+        </div>
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><circle cx="18.5" cy="17.5" r="3.5"/><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="15" cy="5" r="1"/><path d="M18.5 14L12 3 5 14.5"/><path d="M5 14.5L12 3l4 8.5"/></svg>
+          </div>
+          <h4>Bisiklet Kiralama</h4>
+          <p>Göreme ve çevresini keşfetmek için bisiklet kiralama hizmeti mevcuttur.</p>
+        </div>
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+          </div>
+          <h4>Güvenlik</h4>
+          <p>Tüm ortak alanlarda 24 saat kamera güvenlik sistemi.</p>
+        </div>
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h4>Havalimanı Transferi</h4>
+          <p>Nevşehir (29 km) ve Kayseri (60 km) havalimanlarından ek ücretle transfer hizmeti.</p>
+        </div>
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h4>Ücretsiz Otopark</h4>
+          <p>Otel bahçesinde araçlarınız için ücretsiz ve güvenli otopark alanı.</p>
+        </div>
+
+        <div class="amenity-card fade-in">
+          <div class="amenity-icon">
+            <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Barbekü Alanı</h4>
+          <p>Açık hava barbekü alanımızda arkadaşlarınız ve ailenizle keyifli anlar yaşayın.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <p class="section-tag center">Galeri</p>
+      <h2 class="center">Görseller ile tanışın</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="g-item g-tall">
+        <img src="https://images.odamax.com/imgproxy/img/1024x768/odamax/image/upload/cwtq55l661xgkzqlibvn.jpg" alt="Turquaz Cave Hotel" />
+      </div>
+      <div class="g-item">
+        <img src="https://images.odamax.com/imgproxy/img/800x600/odamax/image/upload/wafhstny6tqox3nube2z.jpg" alt="Oda" />
+      </div>
+      <div class="g-item">
+        <img src="https://images.odamax.com/imgproxy/img/1024x768/odamax/image/upload/i8htmnen1wvyilaw1ioy.jpg" alt="Otel görünümü" />
+      </div>
+      <div class="g-item g-wide">
+        <img src="https://images.odamax.com/imgproxy/img/1024x768/odamax/image/upload/lpe2y6grezrv4wolsc9l.jpg" alt="Teras manzarası" />
+      </div>
+      <div class="g-item">
+        <img src="https://images.odamax.com/imgproxy/img/800x600/odamax/image/upload/uzbjhr3x9avlqdidoliu.jpg" alt="Oda detayı" />
+      </div>
+      <div class="g-item g-tall">
+        <img src="https://images.odamax.com/imgproxy/img/1024x768/odamax/image/upload/fnshsirii2mppjwiydqu.jpg" alt="Otel dışarıdan" />
+      </div>
+      <div class="g-item">
+        <img src="https://images.odamax.com/imgproxy/img/800x600/odamax/image/upload/xsg2wakcu4vsyihhxlf3.jpg" alt="Yatak odası" />
+      </div>
+      <div class="g-item">
+        <img src="https://images.odamax.com/imgproxy/img/800x600/odamax/image/upload/x7ohgxnk5uo2mrgcc3rd.jpg" alt="Banyo" />
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews">
+    <div class="container">
+      <p class="section-tag center">Misafir Yorumları</p>
+      <h2 class="center">272 değerlendirme, <em>4.6 puan</em></h2>
+      <div class="reviews-grid">
+        <div class="review-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p>"Göreme'de konum ve atmosfer açısından en iyi oteldi. Ana caddeye 5 dakika yürüme mesafesinde. Zengin kahvaltı, güleryüzlü personel. Sabah balonlarını odamızdan izledik — inanılmazdı!"</p>
+          <span>— Sarah M., İngiltere</span>
+        </div>
+        <div class="review-card fade-in">
+          <div class="stars">★★★★★</div>
+          <p>"Aile işletmesi olması her şeyi daha özel kılıyor. Sahibi bize bölgenin en iyi yerlerini gösterdi. Mağara odalar gerçekten serin ve rahat — doğal klima gibi çalışıyor."</p>
+          <span>— Marco T., İtalya</span>
+        </div>
+        <div class="review-card fade-in">
+          <div class="stars">★★★★☆</div>
+          <p>"Küçük ve butik olması büyük artısı. Sadece 9 oda olduğu için hiç kalabalık hissetmiyor. Kahvaltı harika, personel son derece yardımsever. Kesinlikle tekrar geleceğiz."</p>
+          <span>— Ahmet K., Türkiye</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section class="location" id="location">
+    <div class="container split split-reverse">
+      <div class="split-text fade-in">
+        <p class="section-tag">Konum</p>
+        <h2>Göreme'nin<br />tam kalbinde</h2>
+        <p>
+          Otelimiz, Göreme Tarihi Milli Parkı'nın içinde, Güvercinlik Vadisi manzarasına bakan bir yamaçta yer almaktadır.
+          Ana caddeye ve bölgenin en önemli tarihi noktalarına yürüme mesafesindeyiz.
+        </p>
+        <address>
+          <strong>Adres:</strong><br />
+          Aydınlı Mahallesi, Çakmaklı Sok. No:17<br />
+          Göreme, Nevşehir 50180, Türkiye
+        </address>
+        <div class="location-airports">
+          <div>
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.4 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 013.31 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.37a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.92z"/></svg>
+            <div>
+              <strong>Nevşehir Havalimanı</strong>
+              <span>29 km · ~30 dk</span>
+            </div>
+          </div>
+          <div>
+            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.4 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 013.31 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.37a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.92z"/></svg>
+              <div>
+                <strong>Kayseri Havalimanı</strong>
+                <span>60 km · ~55 dk</span>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="split-img fade-in">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.0!2d34.8307!3d38.6431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d0599e5f5a66e7%3A0xc32d0b56ee2c9a18!2sTurquaz%20Cave%20Hotel!5e0!3m2!1str!2str!4v1713000000000"
+          width="100%"
+          height="420"
+          style="border:0;border-radius:12px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Turquaz Cave Hotel Haritası"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOKING -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="section-tag center">Rezervasyon & İletişim</p>
+      <h2 class="center">Kapadokya maceranızı<br />başlatın</h2>
+      <div class="contact-wrap">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Ad Soyad</label>
+              <input type="text" id="name" name="name" placeholder="Adınız ve soyadınız" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-posta</label>
+              <input type="email" id="email" name="email" placeholder="ornek@email.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkin">Giriş Tarihi</label>
+              <input type="date" id="checkin" name="checkin" required />
+            </div>
+            <div class="form-group">
+              <label for="checkout">Çıkış Tarihi</label>
+              <input type="date" id="checkout" name="checkout" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="guests">Misafir Sayısı</label>
+              <select id="guests" name="guests">
+                <option value="1">1 Misafir</option>
+                <option value="2" selected>2 Misafir</option>
+                <option value="3">3 Misafir</option>
+                <option value="4">4 Misafir</option>
+                <option value="5+">5+ Misafir</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="room">Oda Tipi</label>
+              <select id="room" name="room">
+                <option value="">Oda seçin</option>
+                <option>Standart Mağara Oda</option>
+                <option>Konfor Çift Kişilik Oda</option>
+                <option>Standart Üç Kişilik Oda</option>
+                <option>İki Yatak Odalı Aile Süiti</option>
+                <option>Dağ Manzaralı Aile Odası</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Mesaj (İsteğe bağlı)</label>
+            <textarea id="message" name="message" rows="4" placeholder="Özel istekleriniz, sorularınız..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark btn-full">Rezervasyon Talebi Gönder</button>
+          <div class="form-success" id="formSuccess">
+            Talebiniz alındı! En kısa sürede size dönüş yapacağız.
+          </div>
+        </form>
+
+        <div class="contact-info">
+          <div class="info-block">
+            <h4>Bize Ulaşın</h4>
+            <ul>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.4 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 013.31 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.37a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.92z"/></svg>
+                <span>+90 384 271 22 07</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.4 11.5a19.79 19.79 0 01-3.07-8.67A2 2 0 013.31 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.91 8.37a16 16 0 006.29 6.29l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.92z"/></svg>
+                <span>+90 545 271 30 50 (WhatsApp)</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <span>info@turquazcavehotel.com</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>Aydınlı Mah. Çakmaklı Sok. No:17, Göreme, Nevşehir</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="info-block">
+            <h4>Check-in / Check-out</h4>
+            <div class="checkinout">
+              <div><span>Check-in</span><strong>14:00</strong></div>
+              <div><span>Check-out</span><strong>11:00</strong></div>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <h4>Online Rezervasyon</h4>
+            <div class="booking-links">
+              <a href="https://www.booking.com/hotel/tr/turquaz-cave.html" target="_blank" rel="noopener">Booking.com</a>
+              <a href="https://www.hotels.com/ho360313/" target="_blank" rel="noopener">Hotels.com</a>
+              <a href="https://www.tripadvisor.com/Hotel_Review-g297983-d1956206" target="_blank" rel="noopener">TripAdvisor</a>
+              <a href="https://www.agoda.com/turquaz-cave-hotel_3/hotel/goreme-tr.html" target="_blank" rel="noopener">Agoda</a>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <h4>Sosyal Medya</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/p/Turquaz-Cave-Hotel-Cappadocia-100054436571820/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                Instagram
+              </a>
+              <a href="https://www.facebook.com/p/Turquaz-Cave-Hotel-Cappadocia-100054436571820/" target="_blank" rel="noopener" aria-label="Facebook">
+                <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                Facebook
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <span class="logo-t">T</span>urquaz<span class="logo-ch"> Cave Hotel</span>
+        <p>Göreme · Kapadokya · Türkiye</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#about">Hakkımızda</a>
+        <a href="#rooms">Odalar</a>
+        <a href="#amenities">İmkânlar</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#location">Konum</a>
+        <a href="#contact">Rezervasyon</a>
+      </nav>
+      <p class="footer-copy">© 2026 Turquaz Cave Hotel. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <!-- CHATBOT WIDGET -->
+  <div id="chatbot-widget">
+    <button id="chat-toggle" aria-label="Chatbotu aç/kapat">
+      <svg class="icon-chat" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      <span class="chat-badge">1</span>
+    </button>
+
+    <div id="chat-window">
+      <div id="chat-header">
+        <div class="chat-hotel-info">
+          <div class="chat-avatar">T</div>
+          <div>
+            <strong>Turquaz Cave Hotel</strong>
+            <span>Sanal Asistan · Çevrimiçi</span>
+          </div>
+        </div>
+        <button id="chat-close-btn" aria-label="Kapat">
+          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div id="chat-messages"></div>
+      <div id="chat-quick-replies">
+        <button class="qr-btn" data-msg="oda tipleri neler">🛏️ Odalar</button>
+        <button class="qr-btn" data-msg="kahvaltı hakkında bilgi">🍳 Kahvaltı</button>
+        <button class="qr-btn" data-msg="otel nerede">📍 Konum</button>
+        <button class="qr-btn" data-msg="havalimanı transfer">✈️ Transfer</button>
+        <button class="qr-btn" data-msg="telefon numarası">📞 İletişim</button>
+        <button class="qr-btn" data-msg="rezervasyon">📅 Rezervasyon</button>
+      </div>
+      <div id="chat-input-row">
+        <input id="chat-input" type="text" placeholder="Mesajınızı yazın..." autocomplete="off" />
+        <button id="chat-send">
+          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="chatbot.js"></script>
+</body>
+</html>
